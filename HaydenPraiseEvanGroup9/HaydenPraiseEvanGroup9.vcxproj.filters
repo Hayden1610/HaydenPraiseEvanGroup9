@@ -14,4 +14,35 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="output_module.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="data_module.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="encryption_module.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="input_module.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="output_module.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="data_module.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="encryption_module.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="input_module.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
 </Project>
