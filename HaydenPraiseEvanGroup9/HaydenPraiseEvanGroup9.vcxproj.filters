@@ -15,34 +15,28 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Source.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="output_module.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="data_module.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="encryption_module.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="input_module.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
+    <ClInclude Include="enigma_input.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="enigma_encrypt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="enigma_output.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="output_module.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="data_module.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="encryption_module.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="input_module.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
+    <ClCompile Include="enigma_input.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="enigma_output.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="enigma_encrypt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

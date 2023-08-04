@@ -18,6 +18,17 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="enigma_encrypt.h" />
+    <ClInclude Include="enigma_input.h" />
+    <ClInclude Include="enigma_output.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="enigma_encrypt.c" />
+    <ClCompile Include="enigma_input.c" />
+    <ClCompile Include="enigma_output.c" />
+    <ClCompile Include="main.c" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -126,19 +137,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="data_module.c" />
-    <ClCompile Include="encryption_module.c" />
-    <ClCompile Include="input_module.c" />
-    <ClCompile Include="output_module.c" />
-    <ClCompile Include="Source.c" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="data_module.h" />
-    <ClInclude Include="encryption_module.h" />
-    <ClInclude Include="input_module.h" />
-    <ClInclude Include="output_module.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

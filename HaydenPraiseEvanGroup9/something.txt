@@ -1,0 +1,4 @@
+Input Message: BA
+Output Message: ADHOOE
+Plugboard Connections: AA,BB
+Rotor Settings: ROTOR SETTINGS
